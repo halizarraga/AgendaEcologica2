@@ -1,0 +1,42 @@
+---
+title: "Agenda Ecológica"
+description: |
+  A short description of the post.
+author:
+  - name: Héctor A. Lizáraga Cubedo
+    url: http://ceakumal.org
+date: 04-05-2021
+categories:
+  - Áreas Naturales Protegidas
+  - Biodiversidad
+  - Cambio Climático y Sargazo
+  - Economías Alternativas y Educación Ambiental
+  - Ordenamiento
+  - Residuos Sólidos
+  - Sustentabilidad de Suelo, Agua y Aire
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = "ragg_png")
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+```{r message = FALSE}
+
+library(tidyverse)
+
+ggplot(mtcars, aes(disp, mpg)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "A boring plot")
+  theme(text = element_text(family ="Roboto"))
+
+```
+

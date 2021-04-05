@@ -1,0 +1,12 @@
+name: "Demo2"
+title: "Blog de la Agenda Ecológica"
+description: |
+  Blog de la Agenda Ecológica
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Origen"
+      href: index.html
+    - text: "Acerca de"
+      href: about.html
+output: distill::distill_article

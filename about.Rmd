@@ -1,0 +1,17 @@
+---
+title: "Acerca de este blog"
+description: |
+  Descripción sobre la Agenda Ecológica
+output:
+  html_document:
+    df_print: paged
+---
+
+¡En hora buena!
+
+![](../images/Hector.jpg)
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

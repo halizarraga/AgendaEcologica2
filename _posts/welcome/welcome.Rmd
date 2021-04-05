@@ -1,0 +1,27 @@
+---
+title: "Bienvenido al blog de la Agenda Ecológica"
+description: |
+  En este blog se plasma el conenido principal de la Agenda Ecológica de la Agenda Ciudadana de Tulum Sustentable!
+author:
+  - name: Héctor A. Lizáraga Cubedo
+    url: http://ceakumal.org
+    affiliation: Centro Ecológico Akumal
+    affiliation_url: http://ceakumal.org
+date: 04-05-2021
+categories:
+  - Agenda Ecológica
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
