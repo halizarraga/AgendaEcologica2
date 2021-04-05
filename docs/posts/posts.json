@@ -22,7 +22,9 @@
     "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\nlibrary(tidyverse)\n\nggplot(mtcars, aes(disp, mpg)) +\n  geom_point() +\n  geom_smooth() +\n  labs(title = \"A boring plot\")\n\n\n\n  theme(text = element_text(family =\"Roboto\"))\n\n\nList of 1\n $ text:List of 11\n  ..$ family       : chr \"Roboto\"\n  ..$ face         : NULL\n  ..$ colour       : NULL\n  ..$ size         : NULL\n  ..$ hjust        : NULL\n  ..$ vjust        : NULL\n  ..$ angle        : NULL\n  ..$ lineheight   : NULL\n  ..$ margin       : NULL\n  ..$ debug        : NULL\n  ..$ inherit.blank: logi FALSE\n  ..- attr(*, \"class\")= chr [1:2] \"element_text\" \"element\"\n - attr(*, \"class\")= chr [1:2] \"theme\" \"gg\"\n - attr(*, \"complete\")= logi FALSE\n - attr(*, \"validate\")= logi TRUE\n\n\n\n\n",
     "preview": "posts/2021-04-05-agenda-ecolgica/agenda-ecolgica_files/figure-html5/unnamed-chunk-1-1.png",
     "last_modified": "2021-04-05T12:03:30-05:00",
-    "input_file": {}
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   },
   {
     "path": "posts/welcome/",

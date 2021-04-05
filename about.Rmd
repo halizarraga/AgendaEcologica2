@@ -12,6 +12,8 @@ output:
 ![](../images/Hector.jpg)
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r setup, include=FALSE, layout = "l-body"}
+knitr::opts_chunk$set(echo = TRUE)
+
+knitr::include_graphics("../images/Hector.jpg")
 ```
