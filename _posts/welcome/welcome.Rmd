@@ -8,11 +8,8 @@ author:
     affiliation: Centro Ecológico Akumal
     affiliation_url: http://ceakumal.org
 date: 04-05-2021
-categories:
-  - Agenda Ecológica
 output:
   html_document:
-    df_print: paged
   distill::distill_article:
     self_contained: false
 ---

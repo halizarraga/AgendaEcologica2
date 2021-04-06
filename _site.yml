@@ -10,9 +10,6 @@ description: |
   Blog de la Agenda Ecológica
 output_dir: "docs"
 navbar:
-  logo:
-  image: images/AgendaTulum.png
-  href: images/AgendaTulum.png
   left: 
     - text: "Agenda General"
       menu: 

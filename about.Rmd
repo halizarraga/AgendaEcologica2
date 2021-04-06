@@ -5,14 +5,17 @@ description: |
 output:
   html_document:
     df_print: paged
+    distill::distill_article:
+    self_contained: false
 ---
 
-¡En hora buena!
+
+En este blog se plasma el contenido  de la **Agenda Ecológica**. Dicha agenda es una de las *seis* agendas o ejes temáticos de la *"AGENDA PARA EL DESARROLLO SUSTENTABLE DE TULUM"*, la cual es producto de la alianza entre las asociaciones civiles [Asociación de Hoteles de Tulum](www.ahtulum.com) y el [Instituto de Administración Pública de Quintana Roo](www.iapqroo.org.mx) para generar un modelo rector para una eficiente gestión muncipal partiendo de un enfoque técnico y social.
 
 
 
 
-```{r setup, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'markup'}
+```{r setup, echo=FALSE, warning=FALSE,message=FALSE, out.width='100%', fig.align='center', results = 'markup'}
 
 library(knitr)
 library(here)
