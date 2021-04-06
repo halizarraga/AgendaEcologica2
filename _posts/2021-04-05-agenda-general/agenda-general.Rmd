@@ -7,8 +7,10 @@ author:
     url: http://ceakumal.org
 date: 04-05-2021
 output:
-  distill::distill_article:
-    self_contained: false
+  html_document: 
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
 ---
 
 

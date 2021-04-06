@@ -22,3 +22,20 @@ library(here)
 knitr::include_graphics(here("../Demo2/AgendaTulum.png"))
 
 ```
+
+
+> - "Después de 4 años de incidir en la definición de problemas públicos de Quintana Roo, el IAPQROO se complace en informar que la Asociación de Hoteles de Tulum, A.C. nos ha invitado a diseñar junto con la ciudadanía la Agenda Ciudadana para el Desarrollo Sustentable de Tulum".
+
+
+
+
+```{r convenio, echo=FALSE, warning=FALSE,message=FALSE, out.width='100%', fig.align='center', results = 'markup'}
+
+library(knitr)
+library(here)
+
+knitr::include_graphics(here("../Demo2/convenio-flyer.jpg"))
+
+```
+
+[Nota Convenio Agenda](https://iapqroo.org.mx/?p=4776)

@@ -1,16 +1,18 @@
 ---
-title: "Bienvenido al blog de la Agenda Ecológica"
+title: "Blog de la Agenda Ecológica"
 description: |
-  En este blog se plasma el conenido principal de la Agenda Ecológica de la Agenda Ciudadana de Tulum Sustentable!
+  En este blog se plasma el conenido principal de la Agenda Ecológica de la Agenda para el Desarrollo Sustentable de Tulum!
 author:
   - name: Héctor A. Lizáraga Cubedo
-    url: http://ceakumal.org
     affiliation: Centro Ecológico Akumal
     affiliation_url: http://ceakumal.org
 date: 04-05-2021
 output:
   distill::distill_article:
-    self_contained: false
+     highlight: default
+     self_contained: false
+     toc: true
+     theme: AgendaStyle.css
 ---
 
 ```{r, logoAgendaTulum, echo=FALSE, warning=FALSE,message=FALSE, out.width='50%', fig.align='center', results = 'markup'}
@@ -23,5 +25,5 @@ knitr::include_graphics(here("../Demo2/_posts/welcome/Hector.jpg"))
 ```
 
 
- Bienvenido al blog de la **Agenda Ecológica**, una de las seis agendas de la  "AGENDA PARA EL DESARROLLO SUSTENTABLE DE TULUM". En este espacio encontrarás los avances de la constitución de éste extraordinario y único ejercicio en su tipo, de alta participación ciudadana, impulsada por la [Asociación de Hoteles de Tulum](www.ahtulum.com), a través de su Presidente _Lic. David Ortiz-Mena_, y el [Instituto de Administración Pública de Quintana Roo](www.iapqroo.org.mx), presidido por el _Mtro. León Ricardo Lizárraga Cubedo_,  con el objetivo de generar un modelo rector para una eficiente gestión muncipal partiendo de un enfoque técnico y social.
+ Bienvenido al blog de la **Agenda Ecológica**, una de las seis agendas de la  "AGENDA PARA EL DESARROLLO SUSTENTABLE DE TULUM". En este espacio encontrarás los avances de la constitución de éste extraordinario y único ejercicio en su tipo, de alta participación ciudadana, impulsada por la [Asociación de Hoteles de Tulum](https://www.ahtulum.com), a través de su Presidente _Lic. David Ortiz-Mena_, y el [Instituto de Administración Pública de Quintana Roo](https://www.iapqroo.org.mx), presidido por el _Mtro. León Ricardo Lizárraga Cubedo_,  con el objetivo de generar un modelo rector para una eficiente gestión muncipal partiendo de un enfoque técnico y social.
 

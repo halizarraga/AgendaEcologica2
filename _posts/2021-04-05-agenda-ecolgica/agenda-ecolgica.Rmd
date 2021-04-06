@@ -6,21 +6,12 @@ author:
   - name: Héctor A. Lizáraga Cubedo
     url: http://ceakumal.org
 date: 04-05-2021
-categories:
-  - Áreas Naturales Protegidas
-  - Biodiversidad
-  - Cambio Climático y Sargazo
-  - Economías Alternativas y Educación Ambiental
-  - Ordenamiento
-  - Residuos Sólidos
-  - Sustentabilidad de Suelo, Agua y Aire
 output:
-  distill::distill_article:
-    self_contained: false
+  html_document: 
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
 ---
-
-
-
 
 
 
@@ -29,7 +20,7 @@ El coordinador general de la Agenda Ecológica es **Héctor A. Lizárraga Cubedo
 
 
 
-```{r, Hector, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Hector, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 library(knitr)
 library(here)
 
@@ -107,9 +98,9 @@ Estuvieron presentes físicamente y de manera virtual mediante la plataforma zoo
 
 
 
-\newpage
 
-### Subagenda Áreas NAturales Protegidas
+
+### Subagenda Áreas Naturales Protegidas
 
 
 
@@ -117,7 +108,7 @@ Estuvieron presentes físicamente y de manera virtual mediante la plataforma zoo
  
 
  
-```{r, Gonzalo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Gonzalo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/Gonzalo.jpg"))
@@ -168,8 +159,6 @@ Para ésta subagenda Gonzalo propone los siguientes puntos que serán desarrolla
 
 
 
-\newpage
-
 ### Subagenda Biodiversidad
 
 
@@ -178,7 +167,7 @@ Para ésta subagenda Gonzalo propone los siguientes puntos que serán desarrolla
  
  
   
-```{r, Marco, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Marco, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../images/Marco.jpg"))
@@ -200,7 +189,7 @@ Actualmente encabeza la iniciativa para el establecimiento y la consolidación d
 
 
  
-```{r, Biodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'asis'}
+```{r, Biodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/Biodiversidad.png"))
@@ -241,7 +230,7 @@ El equipo de especialistas que integraría esta subagenda es el siguiente:
 
 
 
-```{r, EquipoBiodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'asis'}
+```{r, EquipoBiodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/EquipoBiodiversidad.png"))
@@ -253,7 +242,6 @@ knitr::include_graphics(here("../Demo2/EquipoBiodiversidad.png"))
 
 
 
-\newpage
 
 ### Subagenda Cambio Climático y Sargazo
 
@@ -263,7 +251,7 @@ knitr::include_graphics(here("../Demo2/EquipoBiodiversidad.png"))
  
  
  
-```{r, Olmo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Olmo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 library(knitr)
 
 knitr::include_graphics(here("../Demo2/Olmo.jpg"))
@@ -289,7 +277,6 @@ Fundador de Razonatura en 2007.
 
 
 
-\newpage
 
 ### Subagenda Economías Alternativas y Educación Ambiental
 
@@ -299,7 +286,7 @@ Fundador de Razonatura en 2007.
  
  
   
-```{r, Alejandra, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Alejandra, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/Alejandra.jpg"))
@@ -365,10 +352,11 @@ Desglosando ésta subagenda transversal se tiene que:
 
 - Aplicar soluciones a los problemas ambientales basadas en la experiencia local.
 
-\newpage
 
 
-## Subagenda Residuos Sólidos
+
+
+### Subagenda Residuos Sólidos
 
 
 
@@ -376,7 +364,7 @@ Desglosando ésta subagenda transversal se tiene que:
  
  
   
-```{r, Elizabeth, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Elizabeth, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/Elizabeth.jpg"))
@@ -397,7 +385,7 @@ A participado en mesas de trabajo en la red de educadores ambientales del estado
 Esta subagenda propone los siguientes temas:
 
 
-```{r, Residuos, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'asis'}
+```{r, Residuos, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 library(knitr)
 
 knitr::include_graphics(here("../Demo2/Residuos.png"))
@@ -487,17 +475,7 @@ Banco de datos:
  
  
  
- 
 
-
-
-
-
- 
-
-
-
-\newpage
 
 ### Subagenda Sustentabilidad del Agua, Suelo y Aire
 
@@ -507,7 +485,7 @@ Banco de datos:
  
  
  
-```{r, Alejandro, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'asis'}
+```{r, Alejandro, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/Alejandro.jpg"))
@@ -541,7 +519,7 @@ Esta subganeda propone los siguientes temas:
 
 
  
-```{r, Agua, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'asis'}
+```{r, Agua, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 library(knitr)
 
 knitr::include_graphics(here("../Demo2/Agua.png"))
