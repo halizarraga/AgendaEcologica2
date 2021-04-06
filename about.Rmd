@@ -9,11 +9,16 @@ output:
 
 ¡En hora buena!
 
-![](../images/Hector.jpg)
 
 
-```{r setup, include=FALSE, layout = "l-body"}
-knitr::opts_chunk$set(echo = TRUE)
 
-knitr::include_graphics("../images/Hector.jpg")
+```{r setup, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'markup'}
+
+library(knitr)
+library(here)
+library(grid)
+library(png)
+
+knitr::include_graphics(here("../Demo2/AgendaTulum.png"))
+
 ```

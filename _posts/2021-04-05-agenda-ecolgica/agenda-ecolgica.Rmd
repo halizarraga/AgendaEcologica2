@@ -1,7 +1,7 @@
 ---
 title: "Agenda Ecológica"
 description: |
-  A short description of the post.
+  Descripción de la Agenda Ecológica.
 author:
   - name: Héctor A. Lizáraga Cubedo
     url: http://ceakumal.org
@@ -15,28 +15,205 @@ categories:
   - Residuos Sólidos
   - Sustentabilidad de Suelo, Agua y Aire
 output:
+  html_document:
   distill::distill_article:
     self_contained: false
 ---
 
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(dev = "ragg_png")
-```
-
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
-```{r message = FALSE}
-
-library(tidyverse)
-
-ggplot(mtcars, aes(disp, mpg)) +
-  geom_point() +
-  geom_smooth() +
-  labs(title = "A boring plot")
-  theme(text = element_text(family ="Roboto"))
 
 ```
+
+
+En este blog se plasma el contenido  de la Agenda ciudadana para el Desarrollo Sustentable de Tulum. Dicha agenda es una de las *seis* agendas o ejes temáticos de la **"AGENDA PARA EL DESARROLLO SUSTENTABLE DE TULUM"**, la cual es producto de la alianza entre las asociaciones civiles [Asociación de Hoteles de Tulum](www.ahtulum.com) y el [Instituto de Administración Pública de Quintana Roo](www.iapqroo.org.mx) para generar un modelo rector para una eficiente gestión muncipal partiendo de un enfoque técnico y social.
+
+
+
+
+```{r, logoAgendaTulum, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'markup'}
+library(knitr)
+library(here)
+library(grid)
+library(png)
+
+knitr::include_graphics(here("../Demo2/AgendaTulum.png"))
+
+```
+
+
+## Agenda General  
+
+
+
+La Agenda General esta compuesta de 6 Agendas y 3 Ejes, los cuales son:
+
+> - Agenda Social
+
+> - Agenda Económica y para la Competitividad
+
+> - **Agenda Ecológica**
+
+> - Agenda de Buen Gobierno 
+
+> - Agenda de niños, niñas y jóvenes
+
+> - Agenda Digital
+
+
+
+### Modelo de Agenda
+
+
+El modelo de agenda representa una articulación de las seis agendas en torno a TRES Ejes principales, "Gestión Social", "Participación Ciudadana" e "Identidad", mismos que incluyen los procesos transversales de "Compromiso Ciudadano", "Organización de la Red de Gestores Sociales" y la "Consulta Pública".
+
+
+
+
+```{r, ModeloAgenda, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
+
+
+knitr::include_graphics(here("../Demo2/ModeloAgendaTulum.png"))
+
+```
+
+
+Una vez instaladas las seis agendas se procede a instalar cada una de sus respectivas  subagendas para dar paso al proceso de trabajo técnico mediante talleres de "Diagnóstico" y de "Análisis del Entorno" mediante la aplicación de la metodología del Marco Teórico.
+
+Se tienen lineamientos generales para la realización de los talleres, mismos que se presentan a continuación:
+
+
+
+> **LINEAMIENTOS DE TRABAJO PARA LOS COORDINADORES DE AGENDAS/TEMAS**
+
+
+**Encuentros por Tema**
+
+
+ Estos lineamientos pretenden ser una guía metodológica para que las personas que se han integrado a los trabajos de planeación participativa para diseñar la Agenda Ciudadana para el Desarrollo Sustentable de Tulum que han convocado la Asociación de Hoteles de Tulum y el IAPQROO, puedan organizar las mesas de trabajo y sistematicen la información obtenida de los participantes para lograr cumplir con el objetivo de proponer un Plan Municipal de Desarrollo para Tulum.
+
+
+Los encuentros por tema son espacios de reflexión de la red de gestores sociales que la Agenda pretende nombrar con el propósito de que su guía, conocimiento, asesoría y evaluación ciudadana permita construir las líneas de acción del Plan Municipal de Desarrollo para el próximo gobierno Municipal de Tulum 2021-2024.
+
+Este espacio de reflexión persigue al menos los siguientes objetivos:
+
+1- Que los expertos, organizaciones civiles, centros de estudio y líderes sociales discutan sobre los problemas públicos que tiene el tema en el que están participando.
+Realizar un análisis del entorno del tema que les corresponda (Identificación de los problemas).
+
+2- Definir los problemas públicos del tema.
+
+3- Construir una visión sobre el tema.
+
+4- Diseñar líneas de acción especificas parte de la estructura programática que se propondrá al próximo gobierno municipal.
+
+
+
+Para las reuniones agendadas se deberá de considerar la siguiente información:
+
+
+Relación de invitados para coordinar las agendas y sus temas (-Directorio de participantes-):
+
+
+Nombre:________ Cargo:________ Teléfono: ________ Redes sociales: ________
+
+Facebook:________ Twitter:________ Instagram:________
+
+
+Síntesis curricular de los Coordinadores de Agenda y Tema (3 párrafos máximo):
+
+
+Durante o previo a la reunión se deberá de nombrar un **secretario técnico** que nos ayude a tomar nota de los acuerdos tomados por la mesa, llevar la agenda de actividades y reuniones que tengan, así como las líneas de acción que se logre establecer sobre el tema de la Agenda Ciudadana (educación, salud, vivienda,etc.) a tratar.
+
+
+
+**Datos del Secretario Técnico**
+
+
+Nombre:________ Cargo:________ Teléfono: ________ Redes sociales: ________
+
+Facebook:________ Twitter:________ Instagram:________
+
+
+
+El mecanismo para desahogar la discusión de los temas, será el de MESAS DE TRABAJO, los integrantes de cada Agenda Temática definirán cuántas mesas de trabajo requerirán para tratar los subtemas que componen cada tema, así como si tendrán invitados especiales para ampliar la información con la que cuentan, ya sea vía conferencia magistral, taller o curso que el IAPQROO les apoyará para su realización.
+
+
+
+
+```{r, OrdenDia, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
+
+
+knitr::include_graphics(here("../Demo2/OrdenDiaAgendaTemas.png"))
+
+```
+
+
+
+Posteriormente se deberá de registrar en un formato especial los acuerdos alcanzados durante la reunión.
+
+
+```{r, ReporteAcuerdos, echo=FALSE, warning=FALSE,message=FALSE, out.width='100%', fig.align='center', results = 'markup'}
+
+
+knitr::include_graphics(here("../Demo2/ReporteAcuerdos.png"))
+
+```
+
+
+
+**¿Qué se busca obtener en el primer taller (marzo)?**
+
+
+Los lineamientos para este taller son los siguientes:
+
+
+
+1. Un banco de datos e información (mapas, estudios, análisis, hallazgos, encuestas, estadísticas,  bases de datos, aplicaciones, normas, planes, programas, presupuestos, proyectos).
+
+2. Descripción de la situación que engloba el tema, respecto al presente.
+
+3. Definición de la problemática que hay que tomar en cuenta en el corto, mediano y largo plazo.
+
+4. Identificación de CAMBIOS urgentes, en los primeros 100 días de gobierno.
+
+5. Definición de proyectos estratégicos.
+
+6. Identificación de actores claves para incidir en el cambio, tanto personales como institucionales.
+
+7. Identificación de fondos privados o públicos para incidir en el tratamiento del tema que se analiza.
+
+8. Identificación de la infraestructura, recursos humanos y financieros que existen para tratar el tema.
+
+9. Identificación y descripción de instrumentos tecnológicos que hay que tomar en cuenta.
+
+10. Definición de cambios en las relaciones de poder entre gobernantes y gobernados, ponderando esquemas de participación ciudadana, transparencia y rendición de cuentas.
+
+
+### Análisis del Entorno (Identificación de los Problemas)
+
+
+ Se plantea que los participantes lleguen a un consenso de cuál es el diagnóstico que más les parece adecuado sobre el tema, con el apoyo de estudios, mapas, análisis georeferenciados, tendencias, mega tendencias, encuestas, monitoreo de problemas públicos, así como de la opinión de expertos que se invite a las mesas.
+ 
+ 
+Con el apoyo de la IAPAS y el IAPQROO se pretende realizar un ejercicio de visioning con el propósito metodológico de que esta técnica sirva para vislumbrar la problemática con base prospectiva.
+
+
+El análisis del entorno se expresará en infografías que el IAPQROO diseñará con base en la información que proporcione cada mesa de trabajo.
+
+
+
+### Definición de los Problemas (árboles de problemas)
+
+
+El IAPQROO hará un ejercicio con cada tema, apoyando a las mesas de trabajo para delinear las estructura programática que requerimos, basados en la metodología del marco lógico.
+
+
+
+
+
+
+
+
 
