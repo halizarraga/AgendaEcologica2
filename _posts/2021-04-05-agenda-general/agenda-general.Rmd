@@ -7,7 +7,6 @@ author:
     url: http://ceakumal.org
 date: 04-05-2021
 output:
-  html_document:
   distill::distill_article:
     self_contained: false
 ---

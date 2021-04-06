@@ -9,7 +9,6 @@ author:
     affiliation_url: http://ceakumal.org
 date: 04-05-2021
 output:
-  html_document:
   distill::distill_article:
     self_contained: false
 ---
@@ -17,8 +16,6 @@ output:
 ```{r, logoAgendaTulum, echo=FALSE, warning=FALSE,message=FALSE, out.width='50%', fig.align='center', results = 'markup'}
 library(knitr)
 library(here)
-library(grid)
-library(png)
 
 knitr::include_graphics(here("../Demo2/_posts/welcome/Hector.jpg"))
 

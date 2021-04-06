@@ -3,10 +3,8 @@ title: "Acerca de este blog"
 description: |
   Descripción sobre la Agenda Ecológica
 output:
-  html_document:
-    df_print: paged
-    distill::distill_article:
-    self_contained: false
+  distill::distill_article:
+    self_contained: yes
 ---
 
 
@@ -19,8 +17,7 @@ En este blog se plasma el contenido  de la **Agenda Ecológica**. Dicha agenda e
 
 library(knitr)
 library(here)
-library(grid)
-library(png)
+
 
 knitr::include_graphics(here("../Demo2/AgendaTulum.png"))
 

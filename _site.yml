@@ -10,20 +10,15 @@ description: |
   Blog de la Agenda Ecológica
 output_dir: "docs"
 navbar:
-  left: 
-    - text: "Agenda General"
-      menu: 
-        - text: "Coordinación General"
-          href: "CoordinaciónGral.html"
-        - text: "Coordinación Agenda Ecológica"
-          href: "CoordAgendaEcologica.html"
-        - text: "Equipo de la Agenda Ecológica"
-          href: "Equipo.html"
   right:
     - text: "Origen"
       href: index.html
-    - text: "Acerca de este blog"
+    - text: "Welcome"
       href: about.html
+    - text: "Agenda General"
+      href: agenda-general.html
+    - text: "Agenda Ecológica"
+      href: agenda-ecologica.html
     - icon: fa fa-github
       href: https://halizarraga.github.io/AgendaEcologica2/
 output: 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://halizarraga.github.io/AgendaEcologica2/about.html</loc>
-    <lastmod>2021-04-05T20:41:23-05:00</lastmod>
+    <lastmod>2021-04-05T22:00:05-05:00</lastmod>
   </url>
   <url>
     <loc>https://halizarraga.github.io/AgendaEcologica2/</loc>
@@ -11,5 +11,17 @@
   <url>
     <loc>https://halizarraga.github.io/AgendaEcologica2/LICENSE.html</loc>
     <lastmod>2021-04-05T12:15:13-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-ecolgica/</loc>
+    <lastmod>2021-04-05T22:06:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-general/</loc>
+    <lastmod>2021-04-05T22:06:17-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://halizarraga.github.io/AgendaEcologica2/posts/welcome/</loc>
+    <lastmod>2021-04-05T22:05:37-05:00</lastmod>
   </url>
 </urlset>

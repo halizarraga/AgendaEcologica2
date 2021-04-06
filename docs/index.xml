@@ -8,5 +8,37 @@
 </description>
     <generator>Distill</generator>
     <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Agenda Ecológica</title>
+      <dc:creator>Héctor A. Lizáraga Cubedo</dc:creator>
+      <link>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-ecolgica</link>
+      <description>Descripción de la Agenda Ecológica.</description>
+      <category>Áreas Naturales Protegidas</category>
+      <category>Biodiversidad</category>
+      <category>Cambio Climático y Sargazo</category>
+      <category>Economías Alternativas y Educación Ambiental</category>
+      <category>Ordenamiento</category>
+      <category>Residuos Sólidos</category>
+      <category>Sustentabilidad de Suelo, Agua y Aire</category>
+      <guid>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-ecolgica</guid>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agenda General</title>
+      <dc:creator>Héctor A. Lizáraga Cubedo</dc:creator>
+      <link>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-general</link>
+      <description>Modelo de la Agenda para el Desarrollo Sustentable de Tulum</description>
+      <guid>https://halizarraga.github.io/AgendaEcologica2/posts/2021-04-05-agenda-general</guid>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bienvenido al blog de la Agenda Ecológica</title>
+      <dc:creator>Héctor A. Lizáraga Cubedo</dc:creator>
+      <link>https://halizarraga.github.io/AgendaEcologica2/posts/welcome</link>
+      <description>En este blog se plasma el conenido principal de la Agenda Ecológica de la Agenda Ciudadana de Tulum Sustentable!</description>
+      <guid>https://halizarraga.github.io/AgendaEcologica2/posts/welcome</guid>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://halizarraga.github.io/AgendaEcologica2/posts/welcome/Hector.jpg" medium="image" type="image/jpeg"/>
+    </item>
   </channel>
 </rss>
