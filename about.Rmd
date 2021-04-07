@@ -5,6 +5,7 @@ description: |
 output:
   distill::distill_article:
     self_contained: yes
+lang: es
 ---
 
 

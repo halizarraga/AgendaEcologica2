@@ -7,10 +7,12 @@ author:
     url: http://ceakumal.org
 date: 04-05-2021
 output:
-  html_document: 
+  html_document:
     fig_width: 7
     fig_height: 6
     fig_caption: true
+  distill::distill_article: default
+lang: es
 ---
 
 
@@ -20,12 +22,14 @@ El coordinador general de la Agenda Ecológica es **Héctor A. Lizárraga Cubedo
 
 
 
-```{r, Hector, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Hector, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 library(knitr)
 library(here)
+library(grid)
+library(png)
 
 
-knitr::include_graphics(here("../Demo2/Hector.jpg"))
+knitr::include_graphics(here("../Demo2/Hector.png"))
 
 ```
 
@@ -108,10 +112,10 @@ Estuvieron presentes físicamente y de manera virtual mediante la plataforma zoo
  
 
  
-```{r, Gonzalo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Gonzalo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+library(knitr)
 
-
-knitr::include_graphics(here("../Demo2/Gonzalo.jpg"))
+knitr::include_graphics(here("../Demo2/Gonzalo.png"))
 
 ```
 
@@ -167,10 +171,11 @@ Para ésta subagenda Gonzalo propone los siguientes puntos que serán desarrolla
  
  
   
-```{r, Marco, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Marco, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
+library(knitr)
 
-knitr::include_graphics(here("../images/Marco.jpg"))
+knitr::include_graphics(here("../Demo2/Marco.png"))
 
 ```
 
@@ -189,8 +194,9 @@ Actualmente encabeza la iniciativa para el establecimiento y la consolidación d
 
 
  
-```{r, Biodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
+```{r Biodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 
+library(knitr)
 
 knitr::include_graphics(here("../Demo2/Biodiversidad.png"))
 
@@ -230,8 +236,9 @@ El equipo de especialistas que integraría esta subagenda es el siguiente:
 
 
 
-```{r, EquipoBiodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
+```{r EquipoBiodiversidad, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 
+library(knitr)
 
 knitr::include_graphics(here("../Demo2/EquipoBiodiversidad.png"))
 
@@ -251,10 +258,10 @@ knitr::include_graphics(here("../Demo2/EquipoBiodiversidad.png"))
  
  
  
-```{r, Olmo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Olmo, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 library(knitr)
 
-knitr::include_graphics(here("../Demo2/Olmo.jpg"))
+knitr::include_graphics(here("../Demo2/Olmo.png"))
 
 ```
 
@@ -286,10 +293,11 @@ Fundador de Razonatura en 2007.
  
  
   
-```{r, Alejandra, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Alejandra, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
 
+library(knitr)
 
-knitr::include_graphics(here("../Demo2/Alejandra.jpg"))
+knitr::include_graphics(here("../Demo2/Alejandra.png"))
 
 ```
 
@@ -364,10 +372,10 @@ Desglosando ésta subagenda transversal se tiene que:
  
  
   
-```{r, Elizabeth, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Elizabeth, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+library(knitr)
 
-
-knitr::include_graphics(here("../Demo2/Elizabeth.jpg"))
+knitr::include_graphics(here("../Demo2/Elizabeth.png"))
 
 ```
 
@@ -385,7 +393,7 @@ A participado en mesas de trabajo en la red de educadores ambientales del estado
 Esta subagenda propone los siguientes temas:
 
 
-```{r, Residuos, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
+```{r Residuos, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 library(knitr)
 
 knitr::include_graphics(here("../Demo2/Residuos.png"))
@@ -485,10 +493,10 @@ Banco de datos:
  
  
  
-```{r, Alejandro, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+```{r Alejandro, echo=FALSE, warning=FALSE,message=FALSE, out.width='40%', fig.align='center', results = 'markup'}
+library(knitr)
 
-
-knitr::include_graphics(here("../Demo2/Alejandro.jpg"))
+knitr::include_graphics(here("../Demo2/Alejandro.png"))
 
 ```
 
@@ -519,7 +527,7 @@ Esta subganeda propone los siguientes temas:
 
 
  
-```{r, Agua, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
+```{r Agua, echo=FALSE, warning=FALSE,message=FALSE, out.width='70%', fig.align='center', results = 'markup'}
 library(knitr)
 
 knitr::include_graphics(here("../Demo2/Agua.png"))

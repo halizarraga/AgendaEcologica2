@@ -7,10 +7,12 @@ author:
     url: http://ceakumal.org
 date: 04-05-2021
 output:
+  distill::distill_article: default
   html_document: 
     fig_width: 7
     fig_height: 6
     fig_caption: true
+lang: es
 ---
 
 
@@ -20,7 +22,7 @@ En este blog se plasma el contenido  de la Agenda ciudadana para el Desarrollo S
 
 
 
-```{r, logoAgendaTulum, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'markup'}
+```{r logoAgendaTulum, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'markup'}
 library(knitr)
 library(here)
 library(grid)
@@ -59,7 +61,7 @@ El modelo de agenda representa una articulación de las seis agendas en torno a 
 
 
 
-```{r, ModeloAgenda, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
+```{r ModeloAgenda, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
 
 
 knitr::include_graphics(here("../Demo2/ModeloAgendaTulum.png"))
@@ -129,7 +131,7 @@ El mecanismo para desahogar la discusión de los temas, será el de MESAS DE TRA
 
 
 
-```{r, OrdenDia, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
+```{r OrdenDia, echo=FALSE, warning=FALSE,message=FALSE, out.width='90%', fig.align='center', results = 'asis'}
 
 
 knitr::include_graphics(here("../Demo2/OrdenDiaAgendaTemas.png"))
@@ -141,7 +143,7 @@ knitr::include_graphics(here("../Demo2/OrdenDiaAgendaTemas.png"))
 Posteriormente se deberá de registrar en un formato especial los acuerdos alcanzados durante la reunión.
 
 
-```{r, ReporteAcuerdos, echo=FALSE, warning=FALSE,message=FALSE, out.width='100%', fig.align='center', results = 'markup'}
+```{r ReporteAcuerdos, echo=FALSE, warning=FALSE,message=FALSE, out.width='100%', fig.align='center', results = 'markup'}
 
 
 knitr::include_graphics(here("../Demo2/ReporteAcuerdos.png"))

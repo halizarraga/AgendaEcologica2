@@ -21,7 +21,6 @@ library(here)
 
 knitr::include_graphics(here("../Demo2/_posts/welcome/Hector.jpg"))
 
-
 ```
 
 

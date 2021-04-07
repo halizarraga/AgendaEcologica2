@@ -1,10 +1,10 @@
-name: "Demo2"
+name: "."
 base_url: https://halizarraga.github.io/AgendaEcologica2/
 collections:
   posts:
     categories: false
-    categories_metadada: false
-    authors_metadata: false
+    categories_metadada: true
+    authors_metadata: true
     disqus: reproducible-finance-with-r
     share: [twitter, linkedin]
     citations: false
@@ -13,11 +13,6 @@ description: |
   Blog de la Agenda Ecológica
 output_dir: "docs"
 navbar:
-  left:
-    - text: "Agenda General"
-      href: agenda-general.html
-    - text: "Agenda Ecológica"
-      href: agenda-ecolgica.html
   right:
     - text: "Inicio"
       icon: fa-home
@@ -31,4 +26,5 @@ output:
      highlight: default
      self_contained: false
      toc: true
-     theme: AgendaStyle.css
+lang: es
+theme: AgendaStyle.css

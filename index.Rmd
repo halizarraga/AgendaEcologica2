@@ -1,5 +1,9 @@
 ---
 title: "Blog de la Agenda Ecológica"
 site: distill::distill_website
-listing: posts
+listing: 
+  posts:
+    - 2021-04-05-agenda-ecolgica
+    - 2021-04-05-agenda-general
+    - welcome
 ---
